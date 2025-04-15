@@ -32,7 +32,7 @@
   [features] 
   no-entrypoint = [] </pre>
 
-  Resources
-  [Solana Documentation] (https://solana.com/docs)
-  [Rust Documentation] (https://solana.com/docs)
-  [Solana CLI Reference] (https://solana.com/docs/cli)
+## Resources
+- [Solana Documentation] (https://solana.com/docs)
+- [Rust Documentation] (https://solana.com/docs)
+- [Solana CLI Reference] (https://solana.com/docs/cli)
