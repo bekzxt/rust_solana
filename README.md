@@ -1,4 +1,17 @@
 # rust_solana
+
+## Prerequisites
+
+- Rust (install via [rustup](https://rustup.rs/))
+- Solana CLI (install via [official guide](https://solana.com/docs/intro/installation))
+- Git
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/solana-hello-world.git
+   cd solana-hello-world
 ![image](https://github.com/user-attachments/assets/9af3124a-d782-43a6-8775-bbc0037cafbc)
 
 
@@ -8,7 +21,9 @@
 <pre> toml [package] 
   name = "untitled19" 
   version = "0.1.0" 
-  edition = "2021" [lib] 
+  edition = "2021" 
+  
+  [lib] 
   crate-type = ["cdylib"] 
   
   [dependencies] 
@@ -16,3 +31,10 @@
   
   [features] 
   no-entrypoint = [] </pre>
+
+  Resources
+Solana Documentation https://solana.com/docs
+
+Rust Documentation https://solana.com/docs
+
+Solana CLI Reference https://solana.com/docs/cli
