@@ -1,4 +1,4 @@
-# rust_solana
+# Assignment 2.2 rust_solana
 
 ## Prerequisites
 
@@ -31,6 +31,34 @@
   
   [features] 
   no-entrypoint = [] </pre>
+
+## Smart Contract Code
+The core functionality is in src/lib.rs:
+```use solana_program::{
+    account_info::AccountInfo,
+    entrypoint,
+    entrypoint::ProgramResult,
+    pubkey::Pubkey,
+    msg,
+};
+
+#[cfg(not(feature = "no-entrypoint"))]
+entrypoint!(process_instruction);
+
+fn process_instruction(
+    _program_id: &Pubkey,
+    _accounts: &[AccountInfo],
+    _instruction_data: &[u8],
+) -> ProgramResult {
+    msg!("Hello from my custom Solana program!");
+    Ok(())
+}
+
+
+## Team Members
+Amirov Bekzat
+Ermukhanov Daulet
+Zhumakanova Asselya 
 
 ## Resources
 
