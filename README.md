@@ -14,9 +14,8 @@
    cd solana-hello-world
    Here's the requested section in code format for your README.md:
 
-```markdown
+markdown
 ## Build and Deployment
-
 ### Build the program:
 ```bash
 cargo build-bpf
@@ -33,7 +32,7 @@ solana config set --url devnet
 ```bash
 solana program deploy ./target/deploy/untitled19.so
 ```
-```
+
 
 ![image](https://github.com/user-attachments/assets/9af3124a-d782-43a6-8775-bbc0037cafbc)
 Successful deployment output showing program ID
