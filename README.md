@@ -72,9 +72,7 @@ fn process_instruction(
 
 
 ## Team Members
-Amirov Bekzat
-Ermukhanov Daulet
-Zhumakanova Asselya 
+Amirov Bekzat, Ermukhanov Daulet, Zhumakanova Asselya.
 
 ## Resources
 - [Solana Documentation](https://solana.com/docs)
