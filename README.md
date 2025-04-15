@@ -67,7 +67,9 @@ fn process_instruction(
 ) -> ProgramResult {
     msg!("Hello from my custom Solana program!");
     Ok(())
-}```
+}
+```
+
 
 ## Team Members
 Amirov Bekzat
