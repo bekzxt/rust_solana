@@ -1,38 +1,30 @@
 # Assignment 2.2 rust_solana
 
 ## Prerequisites
-
 - Rust (install via [rustup](https://rustup.rs/))
 - Solana CLI (install via [official guide](https://solana.com/docs/intro/installation))
 - Git
 
 ## Installation
-
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/solana-hello-world.git
    cd solana-hello-world
    Here's the requested section in code format for your README.md:
-
-markdown
 ## Build and Deployment
 ### Build the program:
 ```bash
 cargo build-bpf
 ```
-
 ### Deployment steps:
-
 1. Configure Solana CLI for devnet:
 ```bash
 solana config set --url devnet
 ```
-
 2. Deploy the program:
 ```bash
 solana program deploy ./target/deploy/untitled19.so
 ```
-
 
 ![image](https://github.com/user-attachments/assets/9af3124a-d782-43a6-8775-bbc0037cafbc)
 Successful deployment output showing program ID
@@ -77,14 +69,12 @@ fn process_instruction(
     Ok(())
 }```
 
-
 ## Team Members
 Amirov Bekzat
 Ermukhanov Daulet
 Zhumakanova Asselya 
 
 ## Resources
-
 - [Solana Documentation](https://solana.com/docs)
 - [Rust Documentation](https://doc.rust-lang.org/book/)
 - [Solana CLI Reference](https://solana.com/docs/cli)
